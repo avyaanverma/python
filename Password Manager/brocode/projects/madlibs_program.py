@@ -1,0 +1,8 @@
+noun1=input("Enter noun1 : ")
+verb4= input("Enter verb4 : ")
+adjective1=input("Enter adjective1 : ")
+noun2= input("Enter noun2 : ")
+adjective2= input("Enter adjective2: ")
+noun5=input("Enter noun5 : ")
+verb3= input("Enter verb3 : ")
+print(f"{noun1} had a dream about {noun2}, but don't know whether {verb3}ing or {verb4}ing. It was a {adjective1} {noun2}. That moment {noun1} realised that it was a {adjective2} {noun5}.")
