@@ -2,10 +2,10 @@
 # A vairable is only available from inside the region it is created
 # a global and locally scoped versions of a varaible can be created
 # LEGB RULE = local enclosed gloabl built-in 
-name = "Bro" #global scope (available inside & outside function)
+name = "Bell" #global scope (available inside & outside function)
 
 def display_name():
-    name = "Code"
+    name = "xploit"
     print(name)
 
 display_name()
