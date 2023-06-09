@@ -1,3 +1,11 @@
+# files ignoring
+.idea/
+*.iml
+*.xml
+.idea/Python.iml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -149,9 +157,4 @@ cython_debug/
 ##  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 ##  and can be added to the global gitignore or merged into this file.  For a more nuclear
 ##  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-.idea/
-*.iml
-*.xml
-.idea/Python.iml
-.idea/inspectionProfiles/profiles_settings.xml
- .idea/misc.xml
+
