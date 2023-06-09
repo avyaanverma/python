@@ -6,6 +6,7 @@ def add(*stuff):
     stuff=list(stuff)
     for i in stuff:
         sum+=i
-    return sum 
-# print(add(1,2,3)) This becomes unuseful
+    return 0
+print(add(1,2,3)) #This becomes unuseful
+
 
