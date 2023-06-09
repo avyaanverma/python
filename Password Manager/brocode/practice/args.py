@@ -2,10 +2,10 @@
 # useful so that a function that can accept a varying amount of arguments 
 
 def add(*stuff):
-    sum=0
-    stuff=list(stuff)
+    sum = 0
+    stuff = list(stuff)
     for i in stuff:
-        sum+=i
+        sum += i
     return sum 
 # print(add(1,2,3)) This becomes unuseful
 
