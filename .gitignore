@@ -1,11 +1,3 @@
-# files ignoring
-.idea/
-*.iml
-*.xml
-.idea/Python.iml
-.idea/inspectionProfiles/profiles_settings.xml
-.idea/misc.xml
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
