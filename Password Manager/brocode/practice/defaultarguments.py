@@ -9,7 +9,7 @@ def net_price(list_price, discount=0, tax=0.05):
 # ---- EXERCISE ----
 import time
 
-def count(end, start=0):
+def count(end, start=0): # default arguments should be after  positional arguments
     for x in range(start, end+1):
         print(x)
         time.sleep(1)
