@@ -1,0 +1,16 @@
+if __name__ == '__main__':
+     
+    n = int(input())
+    arr = list(map(int, input().split()))
+    
+    
+    # finding the highest no 
+    maxno = max(arr)
+    
+    runnerup = min(arr)
+    for e in arr:
+        runnerup = e if (runnerup < e and e != maxno) else runnerup
+    
+    print(runnerup)
+    
+
