@@ -1,4 +1,5 @@
-greg = [
+def main():
+    greg = [
         "January",
         "February",
         "March",
@@ -12,31 +13,31 @@ greg = [
         "November",
         "December"
     ]
-while True:
-    try:
-        user = input("Date: ")
 
-    if user[2] == '/':
-        date, month, year = user.split("/")
-        date = int(date)
-        month = int(month)
-        year = int(year)
+    while True:
+        try:
+            user = input("Date: ")
 
-        if date > 30 or month > 12:
-                continue
-            if int(month) < 10:
-                 month="0"+month
-        else:
-            month, datyea = user.split(" ")
-            date,year = datyea.split(",")
-
-            year = greg.index(year.title())+1
-            if month.title()  not in greg:
-                continue
-
-    except EOFError:
+            if '/' in user:
+                date, month, year = user.split("/")
+                if int(date) > 30 or int(month) > 12:
+                    continue
+                if int(month) < 10:
+                    month="0"+month
+            elif ',' in user:
+                month,date, year = user.split(" ")
+                date = date[0]
+                date = int(date)
+                year = int(year)
+                if month.title()  not in greg:
+                    continue
+                month = greg.index(month.title()) + 1
+        except EOFError:
             continue
-       else:
-        break
+        else:
+            print(f"{year}-{month}-{date}")
+            break
 
-print(f"{year}-{month}-{date}")
+
+if __name__=="__main__":
+    main()
