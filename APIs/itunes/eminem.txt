@@ -1,0 +1,11 @@
+
+
+
+{
+ "resultCount":1,
+ "results": [
+{"wrapperType":"track", "kind":"song", "artistId":4488522, "collectionId":545398133, "trackId":545398146, "artistName":"P!nk", "collectionName":"The Truth About Love", "trackName":"Here Comes the Weekend (feat. Eminem)", "collectionCensoredName":"The Truth About Love", "trackCensoredName":"Here Comes the Weekend (feat. Eminem)", "artistViewUrl":"https://music.apple.com/us/artist/p-nk/4488522?uo=4", "collectionViewUrl":"https://music.apple.com/us/album/here-comes-the-weekend-feat-eminem/545398133?i=545398146&uo=4", "trackViewUrl":"https://music.apple.com/us/album/here-comes-the-weekend-feat-eminem/545398133?i=545398146&uo=4", 
+"previewUrl":"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a1/e4/40/a1e44063-571b-a5e8-1b38-fabe89b64fa6/mzaf_7614887523234308477.plus.aac.p.m4a", "artworkUrl30":"https://is2-ssl.mzstatic.com/image/thumb/Music115/v4/2c/b0/de/2cb0de7b-4559-d885-36f8-271c950cba34/886443562097.jpg/30x30bb.jpg", "artworkUrl60":"https://is2-ssl.mzstatic.com/image/thumb/Music115/v4/2c/b0/de/2cb0de7b-4559-d885-36f8-271c950cba34/886443562097.jpg/60x60bb.jpg", "artworkUrl100":"https://is2-ssl.mzstatic.com/image/thumb/Music115/v4/2c/b0/de/2cb0de7b-4559-d885-36f8-271c950cba34/886443562097.jpg/100x100bb.jpg", "collectionPrice":10.99, "trackPrice":1.29, "releaseDate":"2012-09-14T07:00:00Z", "collectionExplicitness":"explicit", "trackExplicitness":"explicit", "discCount":1, "discNumber":1, "trackCount":15, "trackNumber":11, "trackTimeMillis":265424, "country":"USA", "currency":"USD", "primaryGenreName":"Pop", "contentAdvisoryRating":"Explicit", "isStreamable":true}]
+}
+
+
