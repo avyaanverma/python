@@ -38,6 +38,9 @@ def generate_integer(level):
     else:
         raise ValueError
     return a
+#
+#
+
 
 if __name__ == "__main__":
     main()

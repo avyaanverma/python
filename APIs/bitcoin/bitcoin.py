@@ -62,7 +62,7 @@ while True:
 conversion_price_bitcoin = jsnfile["bpi"]["USD"]["rate"]
 conversion_price = ""
 for no in conversion_price_bitcoin:
-    if no.isdigit(): conversion_price += no
+    if no.isdigit() or no == '.': conversion_price += no
 
 conversion_price = float(conversion_price)
 
